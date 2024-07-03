@@ -1,4 +1,12 @@
-class ViewGeneral:
+import tkinter as tk
+
+class ViewGeneral(tk.Tk):
+    def __init__(self,controller):
+        super().__init__()
+        self.controller =controller
+        self.title("Gestion de Liga")
+
+
     def eleccionMenuPrincipal(self):
         print("Menu Principal: "
               "\n1-Mostrar listado de jugadores"
@@ -17,3 +25,5 @@ class ViewGeneral:
 
     def solicitarDato(self, param):
         return input (f"Ingrese el {param} ")
+    def main(self):
+        self.mainloop()

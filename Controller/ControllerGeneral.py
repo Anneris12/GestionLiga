@@ -6,7 +6,7 @@ from Controller.ControllerJugador import ControllerJugador
 
 class ControllerGeneral:
     def __init__(self):
-        self.vista = ViewGeneral()
+        self.vista = ViewGeneral(self)
         self.controllerClub = ControllerClub()
         self.controllerCategoria = ControllerCategoria()
         self.controllerJugador = ControllerJugador(self.controllerClub, self.controllerCategoria)
@@ -21,7 +21,8 @@ class ControllerGeneral:
 
     def iniciar(self):
         self.cargarDesdeArchivo()
-        op = self.vista.eleccionMenuPrincipal()
+        self.vista.main()
+        """op = self.vista.eleccionMenuPrincipal()
         # MenuPrincipal
         while (op != "0"):
             if (op == "1"):
@@ -65,4 +66,4 @@ class ControllerGeneral:
                 break
             else:
                 self.vista.opcionIncorrecta()
-            op = self.vista.eleccionMenuPrincipal()
+            op = self.vista.eleccionMenuPrincipal()"""
