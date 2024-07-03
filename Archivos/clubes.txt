@@ -1,0 +1,12 @@
+1,Boca
+2,River
+3,Racing
+4,Independiente
+5,San Lorenzo
+6,Huracan
+7,Velez
+8,Banfield
+9,Lanus
+10,Belgrano
+11,Talleres
+12,Instituto

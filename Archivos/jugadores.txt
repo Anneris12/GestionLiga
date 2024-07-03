@@ -1,0 +1,15 @@
+J00001,De Cecco Luciano,4,1,10,2,0
+J00002,Loser Agustin,4,2,25,7,5
+J00003,Zerba Nicolas,1,4,15,7,0
+J00004,Giraudo Matias,3,4,9,5,4
+J00005,Sanchez Matias,5,1,11,9,5
+J00006,Conte Facundo,1,1,7,6,0
+J00007,Martinez Ian,3,3,7,1,5
+J00008,Palonsky Luciano,1,1,20,5,5
+J00009,Mendez Nicolas,5,2,15,6,3
+J00010,Danani Santiago,2,5,12,10,4
+J00011,Ramos Martin,3,1,28,4,0
+J00012,Poglajen Cristian,3,1,13,1,4
+J00013,Sole Sebastian,5,3,11,2,5
+J00014,Crer Pablo,3,2,22,4,3
+J00015,Uriarte Nicolas,2,3,7,7,5
